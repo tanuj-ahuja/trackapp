@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "828581149049",
+    "firebase_url": "https://trackme-22c21.firebaseio.com",
+    "project_id": "trackme-22c21",
+    "storage_bucket": "trackme-22c21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828581149049:android:c212a7a0b9379dcd",
+        "android_client_info": {
+          "package_name": "com.example.android.trackme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828581149049-0ju0tb2s7soo949hiafn7meruv2fns3i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.trackme",
+            "certificate_hash": "453052238ea4be78441648fd56a019522a452f53"
+          }
+        },
+        {
+          "client_id": "828581149049-4ks20l758js1d4p91iu0p34ujg9nds0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNLpoTuAgER4BUJ6SOzp-GpjK7UaGAw_k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828581149049-4ks20l758js1d4p91iu0p34ujg9nds0a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

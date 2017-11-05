@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Track Me</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="details_title">DETAILS</string>
+    <string name="text_name">Name</string>
+    <string name="text_email">Email</string>
+    <string name="text_deparment">Department</string>
+    <string name="text_designation">Designation</string>
+    <string name="camera_details">Camera</string>
+    <string name="error">Error finding image</string>
+    <string name="saved_message">Image Saved at %1$s</string>
+    <string name="imageview_description">The imageview that contains the emojified picture</string>
+    <string name="status_report_title">Status Report</string>
+    <string name="client_name">ClientName</string>
+    <string name="client_name_value">Tanuj</string>
+    <string name="activity">Activity</string>
+    <string name="activity_value">Hangout there and get informationngfnnbv ggfnf </string>
+    <string name="date">Date</string>
+    <string name="date_value">11/02/1999</string>
+    <string name="time">Time</string>
+    <string name="time_value">12:00am</string>
+    <string name="button_checkin">Punch In</string>
+    <string name="button_checkout">Check Out</string>
+    <string name="text_view_no_meetings">No meetings scheduled as of now</string>
+    <string name="meeting_details">Meetings</string>
+    <string name="value_flag">Complete</string>
+    <string name="meeting_flag">Status</string>
+    <string name="chech_in_title">PunchIn Time</string>
+    <string name="check_in_value">-</string>
+    <string name="chech_out_title">PunchOut Time</string>
+    <string name="check_out_value">-</string>
+    <string name="charging_reminder_notification_body">Your administrator has uploaded a new meeting please look into it</string>
+    <string name="upload_meeting_details">New Meeting</string>
+    <string name="title_textview_new_meeting">Send New Meeting</string>
+    <string name="date_new_meeting">Date</string>
+    <string name="activity_new_meeting">Activity</string>
+    <string name="time_new_meeting">Time</string>
+    <string-array name="spinner_report">
+        <item>Complete</item>
+        <item>Pending</item>
+    </string-array>
+</resources>

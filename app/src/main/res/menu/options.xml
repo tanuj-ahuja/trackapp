@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/action_meetings_displays"
+        android:title="@string/meeting_details"
+        android:actionLayout="@layout/feed_update_count"
+        app:showAsAction="always"
+        android:icon="@drawable/bell2"
+        />
+
+    <item
+        android:id="@+id/action_details"
+        android:icon="@drawable/details_logo"
+        android:title="See Details"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_camera"
+        android:icon="@drawable/camera"
+        android:title="@string/camera_details"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_status_report"
+        android:title="@string/status_report_title"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/report_card"
+        />
+
+    <item
+        android:id="@+id/action_upload_meeting"
+        android:title="@string/upload_meeting_details"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/upload"
+        />
+
+</menu>

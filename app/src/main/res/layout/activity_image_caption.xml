@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_image_caption"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.trackme.ImageCaptionActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/bitmap"
+        />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        style="@android:style/Widget.Holo.ProgressBar.Large"
+        android:layout_gravity="bottom"
+        android:id="@+id/upload_progress_bar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:background="@drawable/border2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom"
+            android:background="@drawable/border2">
+
+
+        <EditText
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Enter Description"
+            android:textColorHint="#000"
+            android:textColor="#000"
+            android:ems="10"
+            android:id="@+id/desc" />
+
+
+        </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/border2"
+        android:layout_gravity="bottom">
+
+
+        <EditText
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:textColorHint="#000"
+            android:hint="Enter caption for image"
+            android:ems="10"
+            android:textColor="#000"
+            android:id="@+id/caption" />
+
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/sumbit_comment"
+            android:background="@drawable/send"
+            android:gravity="end"
+            android:onClick="upload"
+            android:paddingLeft="20dp"/>
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</FrameLayout>
